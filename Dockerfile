@@ -13,4 +13,4 @@ RUN apk --update add \
 
 USER jenkins
 
-ENTRYPOINT ["/bin/tini", "--", "/usr/local/bin/jenkins.sh"]
+ENTRYPOINT ["/sbin/tini", "--", "/usr/local/bin/jenkins.sh"]
